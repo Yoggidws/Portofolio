@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+/*shadow*/
+.shdw {
+    box-shadow: 0 4px 6px rgba(255, 215, 0, 0.4);
+    border: 1px solid black;
+    padding: 10px;
+}
+
+li>a.shdw {
+    padding: 5px 15px 5px 15px;
+    color: gold;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*navbar */
+
+#navbar {
+    top: 0;
+    width: 100%;
+    transition: top 0.7s;
+}
+
+header {
+    background: black;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+
+.navbar {
+    color: #ffd700;
+    display: flex;
+    padding: 0 0 0 10px;
+    margin: 0px;
+}
+
+ul {
+    list-style: none;
+    font-size: 22px;
+}
+
+li {
+    padding: 13px 25px;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-right: auto;
+    font-family: parisienne;
+}
+
+
+
+/* BANNER */
+.banner {
+    background: #fcfcfc;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.banner>div {
+    margin: 0;
+    padding: 0;
+}
+
+.container-flex {
+    display: flex;
+    background: #fcfcfc;
+}
+
+
+#gambar {
+    flex-grow: 2;
+}
+
+#text {
+    flex-grow: 7;
+    padding: 50px;
+}
+
+.container-flex>div {
+    margin: 0px;
+    padding: 0;
+    right: 100px;
+}
+
+.greeting {
+    font-family: Arial, 'Helvetica', sans-serif;
+    font-size: 30px;
+    color: black;
+}
+
+ul>li.b {
+    position: absolute;
+    right: 490px;
+    top: 210px;
+}
+
+ul>li.a {
+    position: absolute;
+    right: 550px;
+}
+
+#blckbx {
+    background: black;
+    text-decoration: none;
+    color: white;
+    padding: 1px 20px 1px 20px;
+    border-radius: 10px;
+}
+
+
+
+/* aboutme */
+.abtme {
+    background: white;
+    width: 2000px;
+    margin: 0;
+    padding: 0;
+}
+
+.container-flex1 {
+    display: flex;
+}
+
+.am {
+    font-family: yellowtail;
+    color: white;
+}
+
+div>h1#ttgsy {
+    text-align: center;
+    font: bold 36px exo;
+}
+
+div>p#deskrip {
+    padding: 30px;
+    font: 24px 'Helvetica';
+    text-align: justify;
+    margin: 0;
+}
+
+div.text#abtm {
+    flex: 80%;
+}
+
+#imga {
+    right: 200px;
+}
+
+
+
+/* pengalaman */
+.peng {
+    background: white;
+    margin: 0;
+    display: flex;
+}
+
+.peng>h1 {
+    display: block;
+}
+
+.peng>div {
+    flex: 50%;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 40px;
+    background: black;
+    color: gold;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.356);
+    transition: 0.4s;
+}
+
+.peng>div:hover {
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.623);
+}
+
+.peng>div h2 {
+    text-align: center;
+    padding: 2px;
+    margin: 0;
+    font-size: 28px;
+}
+
+.peng>div p {
+    padding: 10px;
+    margin: 0;
+    font-size: 18px;
+}
+
+
+/* projek */
+#projek {
+    border: 1px solid black;
+    box-shadow: 0px -5px 6px -3px rgba(0, 0, 0, 0.77);
+}
+
+div>h1 {
+    text-align: center;
+}
+
+div.projek {
+    background: black;
+    color: white;
+}
+
+div.prjimg {
+    display: flex;
+    text-align: center;
+    padding: 20px;
+}
+
+.flek {
+    flex: 50%;
+}
+
+div.projek>h1 {
+    text-align: center;
+    font: 30px Helvetica bold;
+    margin: 0;
+    padding: 20px;
+}
+
+p.flek {
+    text-align: left;
+    font: 17px Helvetica;
+    margin: 20px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.peng>ul>li {
+    display: block;
+    background: white;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+
+footer>h1 {
+    margin: 0;
+    padding: 10px;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(255, 217, 0, 0.575);
+    border: 1px solid white;
+}
+
+div>ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+div>ul>li#plx {
+    flex-grow: 1;
+}
+
+li#plx a {
+    text-align: center;
+    text-decoration: none;
+    top: 20px;
+    color: white;
+    font-size: 29px;
+}
+
+/* tambaan */
+
+p.flek>a {
+    color: white;
+}
+
+p.flek>a:hover {
+    font-weight: bolder;
+    font-size: 20px;
+    transition: 0.5s;
+    color: gold;
+}
+
+@media screen and (max-width:475px) {
+    #logo {
+        padding-bottom: 20px;
+    }
+
+    li.hid,
+    li.hid>a {
+        display: none;
+    }
+
+    #gambar,
+    #text,
+    #card {
+        display: none;
+    }
+
+    .abtm {
+        padding-top: 30px;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    div.prjimg,
+    .peng {
+        flex-direction: column;
+    }
+
+    .k {
+        justify-content: center;
+    }
+
+    .keah {
+        padding: 10px;
+        width: 120px;
+    }
+
+    footer div ul {
+        display: block;
+    }
+}
+
+@media screen and (max-width:375px) {
+    div div.k {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:768px) {
+    #navbar {
+        width: 100%;
+    }
+
+    ul>li.logo {
+        margin-right: 120px;
+    }
+
+    img#imga {
+        display: none;
+    }
+
+    ul li.a a,
+    li.b {
+        display: none;
+    }
+
+    div.prjimg,
+    .peng {
+        flex-direction: column;
+    }
+}
